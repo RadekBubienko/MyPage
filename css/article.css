@@ -1,0 +1,122 @@
+.article__header1 {
+    color: #0956ef;
+    margin-bottom: 10px;
+}
+.warning {
+    color: #c01134 !important;
+}
+.brighter {
+    color: #8cb3f1 !important;
+}
+
+.paragraph-brighter {
+    color: #d8e5fb !important;
+}
+
+.bigger {
+    max-width: 80% !important;
+}
+
+.article__header2 {
+    color: #0956ef;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.article__paragraph {
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.article__paragraph--link {
+    cursor: pointer;
+    color: #196cf3;
+    text-decoration: none;
+    display: inline;
+    padding: 10px 15px;
+    background-color: #c8c8c8;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.article__paragraph--link:hover {
+    color: crimson;
+}
+
+.article__img {
+    max-width: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 20px #010b2ca6;
+}
+
+.article__div--roundImg {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.article__img--myImg {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 20px #000000a6;
+}
+
+.displayNone {
+    display: none;
+}
+
+.article__img--figCaption {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.article__img--smaller {
+    max-width: 40%;
+}
+
+.article__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px auto;
+}
+
+.article__table--caption {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.article__table--tableCell {
+    border: 1px solid #999999;
+    padding: 10px;
+    text-align: center;
+    background-color: #b5d1ff;
+}
+
+.article__table--tableHeader {
+    background-color: #c8c8c8;
+}
+
+.js-button1, .js-button2 {
+    font-family: 'Lato', sans-serif;
+    background-color: #c8c8c8;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #999999;
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.js-button1:hover,
+.js-button2:hover {
+    background-color: #e6e6e6;
+    color: crimson;
+}

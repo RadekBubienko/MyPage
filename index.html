@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/aside.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <title>Radek Bubienko - przyszły Frontend Developer</title>
+</head>
+
+<body class="body">
+    <nav id="top" class="nav">
+        <ul class="nav__unorderedList">
+            <a href="#aboutMe" class="nav__listItemAnchor">
+                <li class="nav__listItem">Troszkę o mnie</li>
+            </a>
+            <a href="#interests" class="nav__listItemAnchor">
+                <li class="nav__listItem">Zainteresowania</li>
+            </a>
+            <a href="#hobby" class="nav__listItemAnchor">
+                <li class="nav__listItem">Hobby</li>
+            </a>
+            <a href="#tofik" class="nav__listItemAnchor">
+                <li class="nav__listItem">Mój Piesek Tofik</li>
+            </a>
+            <a href="#tableAnotherDogs" class="nav__listItemAnchor">
+                <li class="nav__listItem">Moje inne pieski</li>
+            </a>
+        </ul>
+    </nav>
+    <main class="main">
+        
+        <aside class="aside">
+            <button class="aside__button js-buttonChangeTheme">Zmień motyw na ciemny</button>
+            <p class="aside__paragraph">Motto: <i>Nic co w komputrze <span class="warning">nie będzie </span>mi
+                    obce.</i></p>
+        </aside>
+
+        <article class="article">
+            <h1 class="article__header1 js-header1">Radek Bubienko</h1>
+            <div class="article__div--roundImg"><img src="images/moje.jpg" class="article__img--myImg js-myImg" alt="Radek Bubienko"></div>
+            <p><button class="js-button1">Usuń zdjęcie</button></p>
+            <h2 id="aboutMe" class="article__header2 js-header2">Troszkę o mnie</h2>
+            <p class="article__paragraph js-paragraph">Znamy się mało... więc może ja bym powiedział parę słów o sobie – najpierw. Urodziłem
+                się... w Warszawie, w 1970 roku, w listopadzie. Znaczy, w połowie listopada... właściwie w drugiej
+                połowie listopada,
+                właściwie... dokładnie 25 listopada. No... to tyle może o sobie – na początek... </p>
+        </article>
+
+        <section class="article">
+            <h2 id="interests" class="article__header2 js-header2">Zainteresowania</h2>
+            <p class="article__paragraph js-paragraph">Zawsze pociągały mnie komputery. Już w latach 1989-1990 używałem programu "Ventura" do
+                składu tekstu. Tak wyglądał program:</p>
+            <img src="images/Ventura Publisher 3.0 Win.png" class="article__img" alt="Apple Makintosh">
+            <figcaption class="article__img--figCaption">Program Ventura</figcaption>
+            <p class="article__paragraph js-paragraph">Był też "TAG" polski edytor tekstu. Pracował w systemie MS-DOS. Był jak na tamte czasy
+                rewelacyjny. Niestety wyparł go teraz wszechobecny "Microsoft WORD 6.0". Tak wyglądał "TAG":</p>
+            <img src="images/tag.png" class="article__img" alt="Edytor tekstu TAG">
+            <figcaption class="article__img--figCaption">Edytor tekstu "TAG"</figcaption>
+
+            <p class="article__paragraph js-paragraph">W Irlandii na szkoleniu poligraficznym w 1990 roku zetknąłem się z Apple Macintosh. To
+                było cudo, które mnie oszołomiło. Wtedy z pomocą Gerrego (mój nauczyciel) złożyłem swoją pierwszą własną
+                wizytówkę! I w dodatku wydrukowałem ze 100 sztuk. Tak wtedy wyglądał Makintosh:</p>
+            <img src="images/apple_macintosh.jpg" class="article__img" alt="Apple Makintosh">
+            <figcaption class="article__img--figCaption js-paragraph">Komputer Makintosh</figcaption>
+            <p class="article__paragraph js-paragraph">Później już poleciało. W 1991 roku otworzyliśmy z dziewczyną (teraz żoną) biuro podróży.
+                Zajmowałem się obsługą informatyczną i księgowością. Za pierwsze zarobione pieniądze kupiliśmy fax,
+                maszynę do pisania dla Ewy i komputer dla mnie. Komputer stał się nieodzowny w prowadzeniu biznesu. Dużo
+                by opowiadać. W skrócie to pochłonęło mnie DTP (Desktop Publisching), projektowanie komputerowe, skład
+                tekstu. Projektowałem i przygotowywałem do druku katalogi, druki, wizytówki etc. nawet na zlecenie. Np.
+                "Merkuriusz Polski" - książka teleadresowa właśnie w Venturze.<br>Nie mniej jednak wszystkie
+                doświadczenia "komputerowe" doprowadziły mnie do chęci zgłębienia sztuki programowania profesjonalnego.
+                Do tej pory to było to trochę chaotyczne ale dawałem radę. Zrobiłem parę stron internetowych, serwis
+                wystawiania dokumentów dla naszego biura oparty na bazie danych. Ostatnio zaprogramowałem coś co
+                nazwałem "Ewidencja Czasu Pracy". Wylicza moje finanse na podstawie godzin przepracowanych w drukarni.
+                Tak teraz pracuję w drukarni jak przed 1991 rokiem. Historia zatoczyła koło. Tak wygląda maszyna do tzw.
+                twardej oprawy, którą obsługuję jako operator:</p>
+            <img src="images/kolbus-BF530.jpg" class="article__img" alt="Maszyna do twardej oprawy Kolbus BF 530">
+            <figcaption class="article__img--figCaption">Kolbus BF 530</figcaption>
+        </section>
+        <section class="article">
+            <h2 id="hobby" class="article__header2 js-header2">Hobby</h2>
+            <p class="article__paragraph js-paragraph">Moją pasją jest też malarstwo. W 2012 roku odkryłem w sobie "talent". Tak mówią.
+                Namalowałem co nie co. Poniżej mój pierwszy obraz olejny:</p>
+            <img src="images/szerpka.jpg" class="article__img article__img--smaller" alt="Mój pierwszy obraz olejny">
+            <figcaption class="article__img--figCaption js-paragraph">Zapraszam do galerii na moim profilu na facebooku.<br>Będę wdzięczny za komentarz pod pracami,
+                które Wam się podobają.
+                <p class="js-paragraph"><a class="article__paragraph--link" href="https://www.facebook.com/media/set/?set=a.656224657752846&type=3"
+                        target="_blank">Moja galeria</a></p>
+            </figcaption>
+            <p class="article__paragraph js-paragraph">Kręci mnie też obróbka stali w sensie knifemaking lub płatnerstwo (samodzielne wykonanie
+                noża), oraz rymarstwo i tapicerowanie.</p>
+            <section class="article">
+                <h2 id="tofik" class="js-treat article__header2 js-header2">A to mój piesek Tofik</h2>
+                <p class="article__paragraph js-paragraph">Tofik to porządny ratlerek o sercu lwa. Nie boi się nawet owczarków niemieckich itp.
+                    Rok temu zachorował na oko co doprowadziło do usunięcia gałki ocznej. Nie martwcie się radzi sobie
+                    rewelacyjnie bez oczka.</p>
+                <img src="images/piesek.jpg" class="article__img js-dogImg" alt="Zdjęcie Tofika">
+                <p><button class="js-button2">Pieska nie usuwaj proszę! Kliknij a piesek dostanie smakołyk ❤️</button></p>
+            </section>
+            <section class="article container">
+                <h2 class="article__header2 js-header2">O pieskach więcej</h2>
+                    <table id="tableAnotherDogs" class="article__table">
+                        <caption class="article__table--caption">
+                            <p>Moje pieski na przestrzeni lat</p>
+                        </caption>
+                        <tr>
+                            <th class="article__table--tableCell article__table--tableHeader" scope="col">Imie</th>
+                            <th class="article__table--tableCell article__table--tableHeader" scope="col">Rasa</th>
+                            <th class="article__table--tableCell article__table--tableHeader" scope="col">Z nami</th>
+                            <th class="article__table--tableCell article__table--tableHeader" scope="col">Jak do nas trafił</th>
+                        </tr>
+                        <tr>
+                            <th class="article__table--tableCell article__table--tableHeader" scope="row">Dolla</th>
+                            <td class="article__table--tableCell">Coker Spaniel</td>
+                            <td class="article__table--tableCell">1970 - 1973</td>
+                            <td class="article__table--tableCell">adoptowana</td>
+                        </tr>
+                        <tr>
+                            <th class="article__table--tableCell article__table--tableHeader" scope="row">Rolf</th>
+                            <td class="article__table--tableCell">Dog niemiecki</td>
+                            <td class="article__table--tableCell">1983 - 1992</td>
+                            <td class="article__table--tableCell">z hodowli</td>
+                        </tr>
+                        <tr>
+                            <th class="article__table--tableCell article__table--tableHeader" scope="row">Filipek</th>
+                            <td class="article__table--tableCell">Coker spaniel</td>
+                            <td class="article__table--tableCell">1993 - 1995</td>
+                            <td class="article__table--tableCell">przygarnięty z ulicy</td>
+
+                        </tr>
+                        <tr>
+                            <th class="article__table--tableCell article__table--tableHeader" scope="row">Toleczka</th>
+                            <td class="article__table--tableCell">Owczarek belgijski</td>
+                            <td class="article__table--tableCell">1989 - 2005</td>
+                            <td class="article__table--tableCell">przygarnięta z ulicy</td>
+                        </tr>
+                        <tr>
+                            <th class="article__table--tableCell article__table--tableHeader" scope="row">Benek</th>
+                            <td class="article__table--tableCell">Owczarek niemiecki</td>
+                            <td class="article__table--tableCell">1999 - 2001</td>
+                            <td class="article__table--tableCell">przygarnięty z ulicy</td>
+                        </tr>
+                        <tr>
+                            <th class="article__table--tableCell article__table--tableHeader" scope="row">Sara</th>
+                            <td class="article__table--tableCell">Owczarek niemiecki</td>
+                            <td class="article__table--tableCell">2002 - 2010</td>
+                            <td class="article__table--tableCell">przygarnięta z ulicy</td>
+
+                        </tr>
+                        <tr>
+                            <th class="article__table--tableCell article__table--tableHeader" scope="row">Kropeczek</th>
+                            <td class="article__table--tableCell">Pinczerek</td>
+                            <td class="article__table--tableCell">2015 - 2018</td>
+                            <td class="article__table--tableCell">adoptowany ze schroniska</td>
+
+                        </tr>
+                        <tr>
+                            <th class="article__table--tableCell article__table--tableHeader" scope="row">Tofik</th>
+                            <td class="article__table--tableCell">Ratlerek</td>
+                            <td class="article__table--tableCell">2019 - </td>
+                            <td class="article__table--tableCell">adoptowany</td>
+
+                        </tr>
+                    </table>
+                    <p class="article__paragraph">O kotach kiedyś opowiem, było ich kilka. </p>
+    </main>
+    
+</section>
+    <footer class="footer">
+        <p class="footer__paragraph">&copy; 2022 Radek Bubienko<a class="article__paragraph--link"
+        href="mailto:radek@bubienko.pl">radek@bubienko.pl</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>

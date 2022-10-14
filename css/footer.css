@@ -1,0 +1,11 @@
+.footer {
+    display: block;
+    width: 100%;
+    background-color: #c8c8c8;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.footer__paragraph {
+    color: #196cf3;
+}
