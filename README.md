@@ -2,3 +2,7 @@
 
 ## Demo
 https://radekbubienko.github.io/MyPage/
+
+EN - This is a Page about me, created while learning programming at the YouCode school.
+
+PL - To jest Strona o mnie, stworzona podczas nauki programowania w szkole YouCode.
