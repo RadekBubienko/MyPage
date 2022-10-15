@@ -103,7 +103,7 @@
     background-color: #c8c8c8;
 }
 
-.js-button1, .js-button2 {
+.button {
     font-family: 'Lato', sans-serif;
     background-color: #c8c8c8;
     border-style: solid;
@@ -115,8 +115,7 @@
     cursor: pointer;
 }
 
-.js-button1:hover,
-.js-button2:hover {
+.button:hover {
     background-color: #e6e6e6;
     color: crimson;
 }
