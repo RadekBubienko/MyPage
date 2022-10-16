@@ -21,3 +21,6 @@ html {
     padding: 20px;
     margin: 0 auto;
 }
+.dark {
+    background-color: #303236;
+}

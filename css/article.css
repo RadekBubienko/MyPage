@@ -2,26 +2,12 @@
     color: #0956ef;
     margin-bottom: 10px;
 }
-.warning {
-    color: #c01134 !important;
-}
-.brighter {
-    color: #8cb3f1 !important;
-}
-
-.paragraph-brighter {
-    color: #d8e5fb !important;
-}
-
-.bigger {
-    max-width: 80% !important;
-}
-
 .article__header2 {
     color: #0956ef;
     margin-top: 30px;
     margin-bottom: 0px;
 }
+
 .article__paragraph {
     margin: 0;
     padding: 10px;
@@ -118,4 +104,18 @@
 .button:hover {
     background-color: #e6e6e6;
     color: crimson;
+}
+.warning {
+    color: #c01134;
+}
+.brighter {
+    color: #8cb3f1;
+}
+
+.paragraph-brighter {
+    color: #d8e5fb;
+}
+
+.bigger {
+    max-width: 80%;
 }
