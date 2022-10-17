@@ -1,5 +1,5 @@
 {
-    console.log("Wiadomość dla developerów - Miło mi, że odwiedzasz moją stronkę! To jest nowy commit w GIT");
+    console.log("Wiadomość dla developerów - Miło mi, że odwiedzasz moją stronkę!");
 
     let button1 = document.querySelector(".js-button1");
     let button2 = document.querySelector(".js-button2");

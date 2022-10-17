@@ -10,7 +10,8 @@ html {
 
 .body {
     font-family: 'Lato', sans-serif;
-    background-color: #e3f4fe;
+    background-color: #e4e4e4;
+    background-image: url("../images/asfalt-dark.png");
     text-align: center;
     margin: 0;
     color: #292929;
@@ -22,5 +23,5 @@ html {
     margin: 0 auto;
 }
 .dark {
-    background-color: #303236;
+    background-color: #1c1e22;
 }
