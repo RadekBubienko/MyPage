@@ -53,6 +53,7 @@
     };
     
     const init = () => {
+        
         const buttonChangeTheme = document.querySelector(".js-buttonChangeTheme");
         buttonChangeTheme.addEventListener("click", toggleTheme);
 
