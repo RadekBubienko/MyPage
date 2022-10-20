@@ -1,5 +1,5 @@
 # Radek Bubienko - MyPage
-![Screenshot](https://radekbubienko.github.io/MyPage/images/screenShot.jpg)
+![Screenshot](images/screenShot.jpg)
 
 ## Demo
 https://radekbubienko.github.io/MyPage/
