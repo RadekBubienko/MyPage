@@ -10,16 +10,16 @@
             ? button1.innerText = "Pokaż moje zdjęcie"
             : button1.innerText = "Usuń zdjęcie";
     
-            myImg.classList.toggle("displayNone");
+        myImg.classList.toggle("hidden");
     };
 
     const deleteDogPhoto = () => {
 
         const button2 = document.querySelector(".js-button2");
-        dogImg = document.querySelector(".js-dogImg");
+        const dogImg = document.querySelector(".js-dogImg");
         dogImg.classList.toggle("bigger");
         button2.remove();
-        treat = document.querySelector(".js-treat");
+        const treat = document.querySelector(".js-treat");
         treat.classList.add("warning");
         treat.innerText = "Tofik dziękuje!";
 
